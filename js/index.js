@@ -33,7 +33,7 @@ var mySwiper = new Swiper ('.swiper', {
             // console.log(this.children[0]);
             //替换图片的src
             this.children[1].src = this.children[1].src.replace('.svg','-c.svg')
-            console.log("鼠标移入");
+            // console.log("鼠标移入");
         })
         item.addEventListener('mouseout',function(){
             // console.log(this.children[0]);
@@ -48,7 +48,7 @@ var mySwiper = new Swiper ('.swiper', {
             // console.log(this.children[0]);
             //替换图片的src
             this.children[1].src = this.children[1].src.replace('.svg','-c.svg')
-            console.log("鼠标移入");
+            // console.log("鼠标移入");
         })
         item.addEventListener('mouseout',function(){
             // console.log(this.children[0]);
