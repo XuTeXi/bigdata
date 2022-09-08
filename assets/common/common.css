@@ -1,0 +1,89 @@
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.banxin {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: gray; */
+}
+.dakuan {
+    width: 1538x;
+}
+.banner {
+    width: 100%;
+    height: 500px;
+}
+/* 去除默认样式 */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #1271ef;
+}
+
+a:hover {
+    color: #00bdff;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+
+/* 设置公共样式 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 清除浮动 */
+.cf::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* 版心 */
+.container {
+    width: 1200px;
+    /* 块级元素水平居中 */
+    margin: 0 auto;   
+}

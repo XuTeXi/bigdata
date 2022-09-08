@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="168px" viewBox="0 0 240 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 26</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="240" height="168"></rect>
+        <polygon id="path-3" points="0.139855659 0.130739098 47.6821236 0.130739098 47.6821236 64.7473097 0.139855659 64.7473097"></polygon>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="聚合新首页" transform="translate(-1261.000000, -910.000000)">
+            <g id="编组-26" transform="translate(1261.000000, 910.000000)">
+                <g id="编组">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" fill="#1271EF" xlink:href="#path-1"></use>
+                    <g opacity="0.200525" mask="url(#mask-2)" stroke="#FFFFFF">
+                        <g transform="translate(19.000000, -31.000000)">
+                            <polygon id="Fill-1" opacity="0.537295387" points="98.8834609 0 98.8834609 115.950554 46 115.950554 46 213 203 213 203 0"></polygon>
+                            <polygon id="Fill-3" points="155 19 0 19 0 230 102.790214 230 102.790214 115.138453 155 115.138453"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="编组" transform="translate(89.000000, 49.000000)">
+                    <g transform="translate(14.666667, 0.333333)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <polygon id="Fill-1" fill="#FFFFFF" opacity="0.537295387" mask="url(#mask-4)" points="16.1538866 0.130739098 16.1538866 35.3059839 0.139855659 35.3059839 0.139855659 64.7473097 47.6821839 64.7473097 47.6821839 0.130739098"></polygon>
+                    </g>
+                    <polygon id="Fill-3" fill="#FFFFFF" points="47.6666667 6.33333333 0.666666667 6.33333333 0.666666667 70.3333333 31.8353121 70.3333333 31.8353121 35.4938119 47.6666667 35.4938119"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

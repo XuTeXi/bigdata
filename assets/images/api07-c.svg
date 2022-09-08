@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 8</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="API悬浮切换" transform="translate(-631.000000, -229.000000)">
+            <g id="编组-8" transform="translate(631.000000, 229.000000)">
+                <rect id="矩形备份-30" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="35" height="35"></rect>
+                <rect id="矩形备份-30" stroke="#FFFFFF" stroke-width="3" x="1.5" y="1.5" width="33" height="27" rx="4"></rect>
+                <rect id="矩形" fill="#FFFFFF" x="9" y="33" width="19" height="3"></rect>
+                <rect id="矩形" stroke="#FFFFFF" stroke-width="3" x="12.5" y="10.5" width="9" height="9" rx="4.5"></rect>
+                <path d="M21.5175832,15.0098692 C21.6474408,16.2571877 21.8936861,17.1616941 22.2563192,17.7233887 C22.6741659,18.3706055 23.5550794,19.0053633 24.2608032,19.086341 C24.4096542,19.1034208 24.5642718,19.1119607 24.724656,19.1119607" id="路径-10" stroke="#FFFFFF" stroke-width="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

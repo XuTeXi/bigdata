@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 4</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="API悬浮切换" transform="translate(-631.000000, -72.000000)">
+            <g id="编组-4" transform="translate(631.000000, 72.000000)">
+                <rect id="矩形备份-7" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="35" height="35"></rect>
+                <rect id="矩形" stroke="#FFFFFF" stroke-width="2" x="8" y="16" width="1" height="19"></rect>
+                <path d="M12,17.5693359 L12,36.5693359 L11,36.5693359 L11,17.5693359 L12,17.5693359 Z" id="矩形备份-8" stroke="#FFFFFF" stroke-width="2" transform="translate(11.500000, 27.069336) rotate(-270.000000) translate(-11.500000, -27.069336) "></path>
+                <path d="" id="矩形备份-16" stroke="#FFFFFF" stroke-width="4" transform="translate(8.000000, 4.500000) rotate(-270.000000) translate(-8.000000, -4.500000) "></path>
+                <polyline id="路径-6" stroke="#FFFFFF" stroke-width="3" points="3.87548828 14.0007324 10.9934082 14.0007324 17 8.59130859 36 8.59130859"></polyline>
+                <rect id="矩形" stroke="#FFFFFF" stroke-width="3" x="23.5" y="23.5" width="9" height="9" rx="4.5"></rect>
+                <rect id="矩形备份-10" stroke="#FFFFFF" stroke-width="2" x="28" y="2" width="1" height="19"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

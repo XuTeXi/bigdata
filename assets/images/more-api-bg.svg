@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1919px" height="642px" viewBox="0 0 1919 642" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 16</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0222051711">
+        <g id="聚合新首页" transform="translate(-1.000000, -1378.000000)">
+            <g id="编组-16" transform="translate(1.000000, 1378.000000)">
+                <rect id="矩形" fill="#1271EF" x="742" y="2" width="4" height="640"></rect>
+                <rect id="矩形备份-40" fill="#1271EF" x="1203" y="2" width="4" height="640"></rect>
+                <rect id="矩形备份-39" fill="#1271EF" x="443" y="322" width="4" height="320"></rect>
+                <rect id="矩形备份-42" fill="#1271EF" x="1751" y="2" width="4" height="245"></rect>
+                <polygon id="矩形备份-38" fill="#1271EF" transform="translate(380.000000, 290.000000) rotate(90.000000) translate(-380.000000, -290.000000) " points="378.07 -90 381.93 -90 381.93 670.00026 378.07 670.00026"></polygon>
+                <polygon id="矩形备份-41" fill="#1271EF" transform="translate(1633.000000, 241.000000) rotate(90.000000) translate(-1633.000000, -241.000000) " points="1631.07 -45 1634.93 -45 1634.93 527 1631.07 527"></polygon>
+                <ellipse id="椭圆形" stroke="#1271EF" stroke-width="4" cx="443" cy="290.5" rx="297" ry="286.5"></ellipse>
+                <ellipse id="椭圆形备份" stroke="#1271EF" stroke-width="4" cx="1329.5" cy="122" rx="124.5" ry="120"></ellipse>
+                <ellipse id="椭圆形备份-2" stroke="#1271EF" stroke-width="4" cx="1378.5" cy="409.5" rx="173.5" ry="167.5"></ellipse>
+                <line x1="1847" y1="242" x2="1605" y2="636" id="路径-21" stroke="#1271EF" stroke-width="4"></line>
+            </g>
+        </g>
+    </g>
+</svg>

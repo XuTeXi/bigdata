@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1921px" height="242px" viewBox="0 0 1921 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 18</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.145391555">
+        <g id="聚合新首页" transform="translate(0.000000, -3815.000000)" stroke="#FFFFFF">
+            <g id="编组-18" transform="translate(0.000000, 3816.000000)">
+                <rect id="矩形备份-42" fill="#1271EF" x="473.5" y="0.5" width="1" height="101"></rect>
+                <rect id="矩形备份-41" fill="#1271EF" transform="translate(336.500000, 103.000000) rotate(90.000000) translate(-336.500000, -103.000000) " x="336.5" y="-232.5" width="1" height="671"></rect>
+                <circle id="椭圆形备份" stroke-width="2" cx="690" cy="51" r="50"></circle>
+                <circle id="椭圆形备份-2" cx="672" cy="171" r="68.5"></circle>
+                <line x1="361" y1="103.5" x2="570.199219" y2="240" id="路径-22"></line>
+                <circle id="椭圆形" cx="1377" cy="120" r="119.5"></circle>
+                <rect id="矩形备份-39" stroke-width="2" fill="#1271EF" x="1378" y="121" width="1" height="118"></rect>
+                <rect id="矩形备份-38" fill="#1271EF" transform="translate(1589.000000, 121.500000) rotate(90.000000) translate(-1589.000000, -121.500000) " x="1589" y="-210" width="1" height="663"></rect>
+                <line x1="690" y1="240" x2="1257" y2="0" id="路径-23"></line>
+                <rect id="矩形备份-40" fill="#1271EF" x="740.5" y="0.5" width="1" height="239"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
