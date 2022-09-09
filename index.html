@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>首页</title>
     <link rel="stylesheet" href="./assets/common/common.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./assets/common/reset.css">
     <link rel="stylesheet" href="./lib/swiper8/swiper-bundle.min.css">
 </head>
+
 <body>
     <div class="dakuan">
         <!-- 头部以及轮播图 -->
@@ -25,23 +26,26 @@
                 <button class="btnLoginAndRegister ">登录</button>
                 <button class="btnLoginAndRegister ">注册</button>
             </div>
-           <!--  轮播图 -->
-           <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide slide1"></div>
-                <div class="swiper-slide slide2"></div>
-                <div class="swiper-slide slide3"></div>
+            <!--  轮播图 -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1"></div>
+                    <div class="swiper-slide slide2"></div>
+                    <div class="swiper-slide slide3"></div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- 如果需要滚动条 -->
+                <!-- <div class="swiper-scrollbar"></div> -->
             </div>
-            <!-- 如果需要分页器 -->
-            <div class="swiper-pagination"></div>
-            
-            <!-- 如果需要导航按钮 -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            
-            <!-- 如果需要滚动条 -->
-            <!-- <div class="swiper-scrollbar"></div> -->
         </div>
+        <!-- 返回顶部按钮 -->
+        <div class="backTop">     
         </div>
         <!-- 中间为开发者提供云服务板块 -->
         <div class="cloudServices banxin">
@@ -51,10 +55,22 @@
                 <a href="javascript:;"> 探索云服务 ></a>
             </div>
             <div class="servicesFunction ">
-                <div class="sf1 "><img src="./assets/images/service01.svg" alt=""><h2>API私有化服务</h2><p>可部署本地&专有云的Web API</p><a href="javascript:;">去搜索</a></div>
-                <div class="sf2 "><img src="./assets/images/service02.svg" alt=""><h2>源码云监测</h2><p>实时代码托管、威胁情报监控</p><a href="javascript:;">去搜索</a></div>
-                <div class="sf3 "><img src="./assets/images/service03.svg" alt=""><h2>源码有赢</h2><p>一站式营销活动服务平台</p><a href="javascript:;">去搜索</a></div>
-                <div class="sf4 "><img src="./assets/images/service04.svg" alt=""><h2>YuanMa API</h2><p>API开发者协作平台</p><a href="javascript:;">去搜索</a></div>
+                <div class="sf1 "><img src="./assets/images/service01.svg" alt="">
+                    <h2>API私有化服务</h2>
+                    <p>可部署本地&专有云的Web API</p><a href="javascript:;">去搜索</a>
+                </div>
+                <div class="sf2 "><img src="./assets/images/service02.svg" alt="">
+                    <h2>源码云监测</h2>
+                    <p>实时代码托管、威胁情报监控</p><a href="javascript:;">去搜索</a>
+                </div>
+                <div class="sf3 "><img src="./assets/images/service03.svg" alt="">
+                    <h2>源码有赢</h2>
+                    <p>一站式营销活动服务平台</p><a href="javascript:;">去搜索</a>
+                </div>
+                <div class="sf4 "><img src="./assets/images/service04.svg" alt="">
+                    <h2>YuanMa API</h2>
+                    <p>API开发者协作平台</p><a href="javascript:;">去搜索</a>
+                </div>
             </div>
         </div>
         <!-- 中间海量API服务板块 -->
@@ -67,22 +83,42 @@
             </div>
             <div class="fieldSome banxin">
                 <ul class="field_1">
-                    <li><a href="#"></a><img src="./assets/images/api01.svg" alt=""><p>生活服务</p></li>
-                    <li><a href="#"></a><img src="./assets/images/api02.svg" alt=""><p>金融科技</p></li>
-                    <li><a href="#"></a><img src="./assets/images/api03.svg" alt=""><p>交通地理</p></li>
-                    <li><a href="#"></a><img src="./assets/images/api04.svg" alt=""><p>充值缴费</p></li>
-                    <li><a href="#"></a><img src="./assets/images/api05.svg" alt=""><p>数据智能</p></li>
+                    <li><a href="#"></a><img src="./assets/images/api01.svg" alt="">
+                        <p>生活服务</p>
+                    </li>
+                    <li><a href="#"></a><img src="./assets/images/api02.svg" alt="">
+                        <p>金融科技</p>
+                    </li>
+                    <li><a href="#"></a><img src="./assets/images/api03.svg" alt="">
+                        <p>交通地理</p>
+                    </li>
+                    <li><a href="#"></a><img src="./assets/images/api04.svg" alt="">
+                        <p>充值缴费</p>
+                    </li>
+                    <li><a href="#"></a><img src="./assets/images/api05.svg" alt="">
+                        <p>数据智能</p>
+                    </li>
                 </ul>
                 <ul class="field_2">
-                    <li><a href="#"></a><img src="./assets/images/api06.svg" alt=""><p>企业工商</p></li>
-                    <li><a href="#"></a><img src="./assets/images/api07.svg" alt=""><p>应用开发</p></li>
-                    <li><a href="#"></a><img src="./assets/images/api08.svg" alt=""><p>电子商务</p></li>
-                    <li><a href="#"></a><img src="./assets/images/api09.svg" alt=""><p>吃喝玩乐</p></li>
-                    <li><a href="#"></a><img src="./assets/images/api10.svg" alt=""><p>文娱视频</p></li>  
+                    <li><a href="#"></a><img src="./assets/images/api06.svg" alt="">
+                        <p>企业工商</p>
+                    </li>
+                    <li><a href="#"></a><img src="./assets/images/api07.svg" alt="">
+                        <p>应用开发</p>
+                    </li>
+                    <li><a href="#"></a><img src="./assets/images/api08.svg" alt="">
+                        <p>电子商务</p>
+                    </li>
+                    <li><a href="#"></a><img src="./assets/images/api09.svg" alt="">
+                        <p>吃喝玩乐</p>
+                    </li>
+                    <li><a href="#"></a><img src="./assets/images/api10.svg" alt="">
+                        <p>文娱视频</p>
+                    </li>
                 </ul>
             </div>
             <div class="diLianJie">
-                <p>另外，更多免费API任您挑选，  <a href="javascript:;">马上申请 ></a></p>
+                <p>另外，更多免费API任您挑选， <a href="javascript:;">马上申请 ></a></p>
             </div>
         </div>
         <!-- 中间慧集板块 -->
@@ -95,14 +131,54 @@
             </div>
             <!-- 左侧图、右侧六个栏目介绍 -->
             <div class="masterDetailed">
-                <div class="masterDetailedImg fl" ></div>
-                <div class="masterDetailedContent fl">
-                    <div class="masterDetailedContent_1"><img src="./assets/images/master-item-icon-01.svg" alt=""><h2>asd</h2></div>
-                    <div class="masterDetailedContent_2"></div>
-                    <div class="masterDetailedContent_3"></div>
-                    <div class="masterDetailedContent_4"></div>
-                    <div class="masterDetailedContent_5"></div>
-                    <div class="masterDetailedContent_6"></div>
+                <div class="masterDetailedImg fl"></div>
+                <ul class="masterDetailedContent fl">
+                    <li class="masterDetailedContent_1"><img src="./assets/images/master-item-icon-01.svg" alt="">
+                        <h2>asd</h2>
+                    </li>
+                    <li class="masterDetailedContent_2"></li>
+                    <li class="masterDetailedContent_3"></li>
+                    <li class="masterDetailedContent_4"></li>
+                    <li class="masterDetailedContent_5"></li>
+                    <li class="masterDetailedContent_6"></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 助力行业巨头 -->
+        <div class="aid">
+            <div class="aidWord">
+            <h1>助力行业巨头 / 独角兽企业</h1>
+            <a href="javascript:;">看看我们服务了谁</a>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="onelf fl "></div>
+                        <div class="onerg">
+                            <img class="yinghao" src="../assets/images/help-des-icon.svg" alt="">
+                        <p>河北幸福消金基于业务对三方数据的需求，需接入数百个外部数据源，涉及一百多个不同维度的数据供应商，通过代码开发对接众多接口，费时费力。通过聚合数据的三方数据管理平台，实现了完善的供应商管理、自动化测试、零代码数据源接入、数据质量管理、数据表现监控，从而保障各类信贷业务产品的风险控制正常运行，支撑公司消费贷款业务快速发展。</p>
+                        </div>
+                        <h3 >风险管理部</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="twolf fl "></div>
+                        <div class="onerg">
+                            <img class="yinghao" src="../assets/images/help-des-icon.svg" alt="">
+                        <p>苏州银行在数仓建设过程中创建了新的数据模型，需要开放出去供外部系统调用。传统做法首先需要将数仓中的模型通过数据同步工具落地到目标数据库中，然后应用开发需要了解底层数据源细节，开发数据接口供调用，过程冗长复杂，难以维护，运维成本高。通过聚合数据API服务系统平台可从数据库直接生成相关的操作API，搭配前端页面即可使用，极大简化基础API开发、维护工作。</p>
+                        </div>
+                        <h3 >苏州银行开发部</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="threelf fl "></div>
+                        <div class="onerg">
+                            <img class="yinghao" src="../assets/images/help-des-icon.svg" alt="">
+                        <p>中国银联经过多年建设，可通过银联开放式综合支付服务平台，提供账单、订单、票券信息、行业场景等各类内容支付服务，但是传统的接口对接集成流程，存在API对接开发接入流程较复杂、技术对接沟通不便捷、产品覆盖面不足等痛点。通过聚合数据“APIMaster
+                            -
+                            慧集”的产品能力，构建新一代开放式内容交换平台，将银联传统的内容支付服务从抽象的API接口转换为具象的内容商品，同时也通过API开放底座聚合上游生态伙伴的金融服务能力，赋能上下游生态伙伴，持续推进「开放互联」的业务目标。
+                        </p>
+                        </div>
+                        <h3 >银联创新中心</h3>
+                    </div>
                 </div>
             </div>
         </div>

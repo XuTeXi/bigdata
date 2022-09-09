@@ -185,8 +185,7 @@
 }
 .masterWord h1 {
     padding-top: 100px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
 .masterWord p  {
     padding-top: 10px;
@@ -202,7 +201,7 @@
     height: 596px;
     margin-right: 50px;
 }
-.masterDetailedContent div::before {
+.masterDetailedContent li::after {
     content: "";
     position: relative;
     left: 0;
@@ -211,7 +210,7 @@
     height: 35px;
     background-color: #0061cd;
 }
-.masterDetailedContent div {
+.masterDetailedContent li {
     width: 500px;
     height: 70px;
     /* background-color: #fbfbfd; */
@@ -232,4 +231,96 @@
 .swiper {
     width: 600px;
     height: 300px;
+}
+.backTop {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    /* background-color: black; */
+    position: fixed;
+    top: 600px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 2;
+    background: url(../assets/images/returntopicon.jpg);
+    background-position: -156px -48px;
+    border-radius: 25px;
+}
+.backTop:hover {
+    background-position: -156px -96px;
+}
+
+.aid {
+    background-color: #f8f9fb;
+    width: 100%;
+    height: 600px;
+}
+.aidWord {
+    text-align: center;
+}
+.aidWord h1 {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.aidWord a {
+    color: #0061cd;
+    padding-top: 20px;
+}
+.aid .swiper {
+    width: 1200px;
+    height: 300px;
+    box-sizing: border-box;
+}
+.onelf {
+    width: 600px;
+    height: 300px;
+    background-image: url(../assets/images/hcfc.png);
+}
+.twolf {
+    width: 600px;
+    height: 300px;
+    background-image: url(../assets/images/sznsyh.png);
+}
+.threelf {
+    width: 600px;
+    height: 300px;
+    background-image: url(../assets/images/zhylian.png);
+}
+.onerg {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.banxin {
+    width: 1200px;
+    margin: 0 auto;
+}
+.yinghao {
+    position: absolute;
+    left: 650px;
+    top: 0;
+}
+.swiper-slide p {
+    position: absolute;
+    left: 650px;
+    top: 80px;
+}
+.swiper-slide a {
+    padding: 50px;
+    
+}
+.swiper-slide h3 {
+    position: absolute;
+    left: 1000px;
+    bottom: 20px;
+}
+.aid .swiper {
+    margin-top: 30px;
 }
