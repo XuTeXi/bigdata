@@ -313,8 +313,7 @@
     top: 80px;
 }
 .swiper-slide a {
-    padding: 50px;
-    
+    padding: 50px;  
 }
 .swiper-slide h3 {
     position: absolute;
@@ -323,4 +322,114 @@
 }
 .aid .swiper {
     margin-top: 30px;
+}
+/* 数据安全 */
+.dataSafe {
+    height: 600px;
+}
+.dataSafeWord {
+    text-align: center;
+}
+.dataSafeWord h1 {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.dataSafeWord a {
+    color: #0061cd;
+    padding-top: 20px;
+}
+.dataSafeWord p  {
+    padding-top: 10px;
+    margin-bottom: 30px;
+} 
+.dataSafePic ul li {
+    width: 200px;
+    height: 140px;
+    margin-top: 50px;
+}
+.dataSafePic ul li:nth-child(3),
+.dataSafePic ul li:nth-child(4),
+.dataSafePic ul li:nth-child(5) {
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+
+.dataSafePic ul li:nth-child(3),
+.dataSafePic ul li:nth-child(4),
+.dataSafePic ul li:nth-child(5) {
+    display: block;
+    height: 30px;
+    padding: 20px 0;
+}
+.dataSafePic span {
+    display: block;
+    height: 30px;
+    padding: 10px 0;
+}
+.freeTrial {
+    height: 140px;
+    background: #0061cd url(../assets/images/login-register-bg.svg) no-repeat center top;
+    padding: 60px 0;
+    text-align: center;
+    width: 100%;
+}
+.freeTrial p {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.freeTrial button {
+    background: #0061cd;
+    border: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px 50px;
+}
+.mapSite {
+    /* border: 1px solid red; */
+    height: 340px;
+}
+
+.mapSite-1 ul {
+    margin-right: 45px;
+}
+
+.mapSite-1 li {
+    color: #aaa;
+    margin: 20px 30px 20px 0;
+}
+
+.mapSite-1 .big a {
+    font-weight: 700;
+    color: black;
+}
+
+.mapSite-1 .big {
+    margin-bottom: 50px;
+}
+
+.mapSite-2 h3 {
+    margin: 20px 0 10px 0;
+}
+
+.mapSite-2 span {
+    display: block;
+    color: #aaa;
+    font-size: 14px;
+    text-align: right;
+    margin: 0 20px 40px 0;
+}
+.footer p {
+    font-size: 14px;
+    color: #aaa;
+    display: inline-block;
+}
+
+.footer span {
+    font-size: 14px;
+    color: #aaa;
+    display: inline-block;
+    margin-bottom: 15px;
 }
