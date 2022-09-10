@@ -32,4 +32,45 @@ let apiTypeData = [
 
  
     let showChoose = document.querySelector(".fenlei_list a");
-    showChoose.innerHTML = apiTypeData
+    // showChoose.innerHTML = apiTypeData;
+
+    //API列表区域 模拟服务器返回的数据
+let listDataArr = [
+  //第一行
+  { img: "API_01.jpg", name: "2021出行防疫政策指南", price: "免费", isSpecial: false },
+  { img: "API_02.jpg", name: "身份证实名认证", price: "￥0.2000/次", isSpecial: true },
+  { img: "API_03.jpg", name: "天气预报", price: "免费", isSpecial: false },
+  { img: "API_04.jpg", name: "银行卡四元素校验", price: "￥0.3360/次", isSpecial: true },
+  { img: "API_05.jpg", name: "短信API服务", price: "￥0.0400/次", isSpecial: true },
+
+  //第二行
+  { img: "API_01.jpg", name: "2021出行防疫政策指南", price: "免费", isSpecial: false },
+  { img: "API_02.jpg", name: "身份证实名认证", price: "￥0.2000/次", isSpecial: true },
+  { img: "API_03.jpg", name: "天气预报", price: "免费", isSpecial: false },
+  { img: "API_04.jpg", name: "银行卡四元素校验", price: "￥0.3360/次", isSpecial: true },
+  { img: "API_05.jpg", name: "短信API服务", price: "￥0.0400/次", isSpecial: true },
+  //第三行
+  { img: "API_01.jpg", name: "2021出行防疫政策指南", price: "免费", isSpecial: false },
+  { img: "API_02.jpg", name: "身份证实名认证", price: "￥0.2000/次", isSpecial: true },
+  { img: "API_03.jpg", name: "天气预报", price: "免费", isSpecial: false },
+  { img: "API_04.jpg", name: "银行卡四元素校验", price: "￥0.3360/次", isSpecial: true },
+  { img: "API_05.jpg", name: "短信API服务", price: "￥0.0400/次", isSpecial: true },
+  //第四行
+  { img: "API_01.jpg", name: "2021出行防疫政策指南", price: "免费", isSpecial: false },
+  { img: "API_02.jpg", name: "身份证实名认证", price: "￥0.2000/次", isSpecial: true },
+  { img: "API_03.jpg", name: "天气预报", price: "免费", isSpecial: false },
+  { img: "API_04.jpg", name: "银行卡四元素校验", price: "￥0.3360/次", isSpecial: true },
+  { img: "API_05.jpg", name: "短信API服务", price: "￥0.0400/次", isSpecial: true },
+
+];
+/* 获取数组，拿到数据 添加li、img、p、h4标签*/
+/* 四个标签的样式在api.css文件中写好 */
+let api_main = ""
+listDataArr.forEach(function(item){
+    api_main += ` <li class="${item.isSpecial ? 'special' : ''}">  <img src="../assets/images/${item.img}"> <p>${item.name}</p>  <h4>${item.price}</h4></li> `
+    })
+// console.log(api_main);
+/* 在网页中输出 */
+let api_content = document.querySelector(".main ul"); 
+    api_content.innerHTML = api_main;
+  

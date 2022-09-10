@@ -71,3 +71,44 @@
 .bold {
     font-weight: bold;
 }
+/* 主体内容 */
+.main {
+        height: 550px;
+        margin-top: 20px;
+}
+.main ul{
+    display: flex;  /* 弹性布局 */
+    justify-content: space-between; /* 两边自动排列 */
+    flex-direction:row; /* 横向布局 */
+    flex-wrap: wrap; /*  必要时拆分*/
+}
+.main li {
+    height: 250px;
+    width: 220px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    /* background-color: red; */
+}
+.main li img {
+    position: relative;
+    top: 50px;
+    left: 33%;
+}
+.main li p {
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+.main li h4 {
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: #ff556c;
+}
+.main .special h4{
+    color: #3cc792;
+}
+.main .special {
+    background: url(../assets/images/API03.jpg) no-repeat top left;
+    
+}
