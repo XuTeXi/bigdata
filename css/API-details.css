@@ -30,12 +30,12 @@
     display: inline-block;
 }
 .nav a:hover{
-    color: #0061cd;
+    color: #00bdff;
     font-weight: bold;
 }
 .nav a.on {
-    color: #0061cd;
-    border-bottom: 3px solid #0061cd;
+    color: #00bdff;
+    border-bottom: 3px solid #00bdff;
     font-size: 20px;
 }
 .btnLoginAndRegister {
@@ -54,12 +54,134 @@
 }
 /* API内容介绍 */
 .introduce {
-    width: 100%;
+    /* width: 100%; */
     height: 500px;
-    background-color: #000;
-    
+    /* background-color: #000;  */
 }
 .introduce .pic {
-    width: 200px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pic img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+.pic .id {
+    width: 70px;
+    height: 70px;
+    /* background-color: red; */
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+.pic .lianjie {
+    width: 70px;
+    height: 70px;
+    /* background-color: red; */
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+.pic .collection {
+    width: 70px;
+    height: 70px;
+    /* background-color: red; */
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+}
+.pic span p {
+    color: #d5d5d5;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.introduceWord {
+    width: 850px;
+    height: 300px;
+    /* background: red; */
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+}
+.tag {
+    height: 30px;
+    width: 850px;
+    margin-bottom: 10px;
+}
+.tag p {
+    color: #00bdff;
+    border: 1px solid #00bdff;
+    width: 85px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+.limit {
+    height: 30px;
+    width: 850px;
+    margin-bottom: 10px;
+}
+.limit p {
+    display: inline-block;
+    margin-right: 40px;
+    color: #fda334;
+}
+.grade {
+    height: 60px;
+    width: 850px;
+}
+.qrcode {
+    background: url(../assets/images/API17.jpg) no-repeat 5px center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #00bdff;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+    position: relative;
+}
+.qrcode-img{
+    position: absolute;
+    left: -5px;
+    top: 28px;
+    color: #666;
+    text-align: center;
+    transition: all 0.5s;
+    height: 0;
+    overflow: hidden;
+    /* width: 120px; */
+}
+.qrcode-img:hover {
+    content: "";
     height: 200px;
+}
+.qrcode-img img {
+    width: 120px;
+    height: 120px;
+}
+.grade .qrcode, .one, .two, .three{
+    margin-right: 20px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #00bdff;
+    width: 100px;
+    margin-top: 20px;
+}
+.introduceWord button {
+    background-color: #00bdff;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
 }
