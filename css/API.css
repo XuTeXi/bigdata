@@ -67,14 +67,16 @@
     border-radius: 5px;
     padding: 5px 5px;
     display: inline-block;
+    cursor: pointer;
+
 }
 .bold {
     font-weight: bold;
 }
 /* 主体内容 */
 .main {
-        height: 550px;
-        margin-top: 20px;
+    height: 1100px;
+    margin-top: 20px;
 }
 .main ul{
     display: flex;  /* 弹性布局 */
@@ -88,6 +90,7 @@
     border: 1px solid #000;
     margin-bottom: 20px;
     /* background-color: red; */
+    cursor: pointer;
 }
 .main li img {
     position: relative;
@@ -111,4 +114,157 @@
 .main .special {
     background: url(../assets/images/API03.jpg) no-repeat top left;
     
+}
+.main li .apply {
+    position: relative;
+    left: 10px;
+    bottom: -130px;
+    width: 200px;
+    height: 32px; 
+    border: 1px solid #00bdff;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+    line-height: 32px;
+    background: #00bdff;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.main li:hover .apply {
+    bottom: -95px;
+    opacity: 1;
+}
+/* 登录框 */
+#mask {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 9999;
+    display: none;
+}
+.login {
+    width: 500px;
+    height: 600px;
+    background: #fff;
+    z-index: 5;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    text-align: center;
+}
+.login img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.login .an-btn {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.login .cs-btn {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: none;
+}
+.login .an-btn .forgotPwd {
+    margin-top: 20px;
+    display: block;
+    padding-left: 220px;
+    box-sizing: border-box;
+}
+.login .an-btn p {
+    display: block;
+    margin-top: 20px;
+}
+.login button {
+    width: 300px;
+    height: 40px;
+    background-color:#0061cd;
+    border-radius: 10px;
+    color: #fff;
+    border: 0;
+}
+.login span {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 0;  
+    display: inline-block;
+}
+.user,.pwd {
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.lg-btn span.on::after {
+    content: "";
+    /* border-bottom: 2px solid red; */
+    width: 50px;
+    height: 2px;
+    background-color: #0061cd;
+    margin: 0 auto;
+    display: block;
+}
+.lg-btn span.on{
+    color: #0061cd;
+}
+/* 底部 */
+.mapSite {
+    /* border: 1px solid red; */
+    height: 340px;
+}
+
+.mapSite-1 ul {
+    margin-right: 45px;
+}
+
+.mapSite-1 li {
+    color: #aaa;
+    margin: 20px 30px 20px 0;
+}
+
+.mapSite-1 .big a {
+    font-weight: 700;
+    color: black;
+}
+
+.mapSite-1 .big {
+    margin-bottom: 50px;
+}
+
+.mapSite-2 h3 {
+    margin: 20px 0 10px 0;
+}
+
+.mapSite-2 span {
+    display: block;
+    color: #aaa;
+    font-size: 14px;
+    text-align: right;
+    margin: 0 20px 40px 0;
+}
+.footer p {
+    font-size: 14px;
+    color: #aaa;
+    display: inline-block;
+}
+
+.footer span {
+    font-size: 14px;
+    color: #aaa;
+    display: inline-block;
+    margin-bottom: 15px;
 }

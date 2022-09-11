@@ -1,0 +1,65 @@
+.head {
+    height: 61px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute;   */
+}
+.loge {
+    height: 40px;
+    width: 200px;
+    /* background: url(../images/new-logo-white.png) no-repeat; */
+    background: url(../assets/images/new-logo-white2.png) no-repeat;
+    display: block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.nav {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    line-height: 59px;
+}
+.nav a {
+    color: #000;
+    text-decoration:none;
+    margin-left: 30px;
+    display: inline-block;
+}
+.nav a:hover{
+    color: #0061cd;
+    font-weight: bold;
+}
+.nav a.on {
+    color: #0061cd;
+    border-bottom: 3px solid #0061cd;
+    font-size: 20px;
+}
+.btnLoginAndRegister {
+    /* background-color: rgb(250, 214, 146); */
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    margin-top: 20px;
+}
+.btnLoginAndRegister:hover {
+    background-color: orange;
+}
+/* API内容介绍 */
+.introduce {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    
+}
+.introduce .pic {
+    width: 200px;
+    height: 200px;
+}
