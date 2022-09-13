@@ -1,0 +1,146 @@
+.head {
+    height: 61px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;  
+}
+.loge {
+    height: 40px;
+    width: 200px;
+    /* background: url(../images/new-logo-white.png) no-repeat; */
+    background: url(../assets/images/new-logo-white.png) no-repeat;
+    display: block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.nav {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    line-height: 59px;
+}
+.nav a {
+    color: #fff;
+    text-decoration:none;
+    margin-left: 30px;
+    display: inline-block;
+}
+.nav a:hover{
+    color: #00bdff;
+    font-weight: bold;
+}
+.nav a.on {
+    color: #00bdff;
+    border-bottom: 3px solid #00bdff;
+    font-size: 20px;
+}
+.btnLoginAndRegister {
+    /* background-color: rgb(250, 214, 146); */
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    margin-top: 20px;
+}
+.btnLoginAndRegister:hover {
+    background-color: orange;
+}
+#bg {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.anli {
+    color: #fff;
+    text-align: center;
+    margin-top: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.anli h1,p,h3 {
+    margin-bottom: 20px ;
+}
+/* 经典案例 */
+.frist {
+    height: 460px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hang li {
+    height: 430px;
+    width: 380px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.frist .hang li img{
+    height: 160px;
+    width: 360px;
+    margin-bottom: 20px;
+}
+.hang {
+    margin-top: 25px;
+}
+.ctitle {
+    margin-bottom: 20px;
+    display: block;
+}
+/* 底部 */
+.mapSite {
+    /* border: 1px solid red; */
+    height: 340px;
+}
+
+.mapSite-1 ul {
+    margin-right: 45px;
+}
+
+.mapSite-1 li {
+    color: #aaa;
+    margin: 20px 30px 20px 0;
+}
+
+.mapSite-1 .big a {
+    font-weight: 700;
+    color: black;
+}
+
+.mapSite-1 .big {
+    margin-bottom: 50px;
+}
+
+.mapSite-2 h3 {
+    margin: 20px 0 10px 0;
+}
+
+.mapSite-2 span {
+    display: block;
+    color: #aaa;
+    font-size: 14px;
+    text-align: right;
+    margin: 0 20px 40px 0;
+}
+.footer p {
+    font-size: 14px;
+    color: #aaa;
+    display: inline-block;
+}
+
+.footer span {
+    font-size: 14px;
+    color: #aaa;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+/* 按钮字体颜色 */
+.head button a {
+    color: #fff;
+}

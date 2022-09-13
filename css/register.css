@@ -1,0 +1,88 @@
+body {
+    background: #eee;
+}
+.head {
+    /* width: 100%; */
+    height: 50px;
+    background: #fff;
+    position: relative;
+}
+.head p {
+    float: right;
+    text-align: center;
+    line-height: 50px;
+}
+.head a {
+    color: #00bdff;
+}
+.head img {
+/* vertical-align: middle; */
+    /* margin: auto 0; */
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+    /* display: inline-block;
+    line-height: 50px; */
+}
+.rg-page {
+    width: 600px;
+    height: 560px;
+    background: #fff;
+    /* text-align: center; */
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+#user,#phone,#pwd {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#pin {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    box-sizing: border-box; 
+}
+.rg-page h1,h2 {
+    margin-top: 20px;
+}
+.rg-page .gift {
+    width: 404px;
+    height: 30px;
+    background: #ed510a;
+    display: block;
+    margin: 20px 0;
+    padding-left: 50px;
+    box-sizing: border-box;
+    line-height: 30px;
+    color: #fff;
+}
+.rg-page .gift img {
+    vertical-align:text-top;
+    margin-right: 10px;
+}
+.rg-page .register-btn {
+    width: 404px;
+    height: 40px;
+    margin-top: 30px;
+    border: 0;
+}
+.rg-page .getPin {
+    height: 30px;
+    width: 150px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.warn{
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background: url(../assets/images/loginIcon.png);
+    background-position: -30px -150px;
+}

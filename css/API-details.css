@@ -162,7 +162,7 @@
     overflow: hidden;
     /* width: 120px; */
 }
-.qrcode-img:hover {
+.qrcode:hover .qrcode-img{
     content: "";
     height: 200px;
 }
@@ -184,4 +184,8 @@
     width: 200px;
     height: 50px;
     margin-top: 20px;
+}
+.active {
+    color: red;
+    font-size: 20px;
 }
