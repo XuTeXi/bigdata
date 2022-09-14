@@ -54,7 +54,6 @@ aList_2.forEach(function (item) {
     // console.log(this.children[0]);
     //替换图片的src
     this.children[1].src = this.children[1].src.replace('-c.svg', '.svg')
-
   })
 })
 /* 返回顶部按钮 */

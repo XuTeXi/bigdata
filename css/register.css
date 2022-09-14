@@ -86,3 +86,42 @@ body {
     background: url(../assets/images/loginIcon.png);
     background-position: -30px -150px;
 }
+.on {
+    background-color: #00bdff;
+    color: #fff;
+}
+.input-info {
+    display: none;
+    color: #ed510a;
+}
+.input-info-three {
+    display: none;
+    color: #ed510a; 
+    position: absolute;
+    left: 410px;
+    top: 4px;
+}
+.icon-clear {
+    /* display: none;  */
+    width: 18px;
+    height: 18px;
+    /* background-color: #000; */
+    background: url(../assets/images/clearInput.png) no-repeat;
+    position: absolute;
+    top: 6px;
+    left: 370px;
+    display: none;
+}
+.icon-clear-three {
+    width: 18px;
+    height: 18px;
+    background: url(../assets/images/clearInput.png) no-repeat;
+    /* background-color: #000; */
+    position: absolute;
+    top: 6px;
+    left: 220px;
+    display: none;
+}
+.box {
+    position: relative;
+}
