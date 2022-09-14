@@ -52,6 +52,9 @@
 .btnLoginAndRegister:hover {
     background-color: orange;
 }
+.head .btnLoginAndRegister a{
+    color: #fff;
+}
 .indexBanner .swiper {
     width: 100%;
     height: 680px;
@@ -201,7 +204,7 @@
     height: 596px;
     margin-right: 50px;
 }
-.masterDetailedContent li::after {
+/* .masterDetailedContent li::after {
     content: "";
     position: relative;
     left: 0;
@@ -209,23 +212,101 @@
     width: 3px;
     height: 35px;
     background-color: #0061cd;
-}
-.masterDetailedContent li {
-    width: 500px;
-    height: 70px;
-    /* background-color: #fbfbfd; */
-    background-color: lightcoral;
+} */
+/* .masterDetailedContent li {
+    width: 520px;
+    height: 50px;
+
+    background-color: #fbfbfd;
     display: flex;
     flex-direction: column;
     margin-bottom: 34px;
     justify-content:space-between;
+} */
+/* .masterDetailedContent img {
+    width: 30px;
+    margin-left: 20px;
+    position: relative;
+    left: 0;
+    top: 20px;
+    display: inline-block;
+} */
+/* .masterDetailedContent p {
+    margin-left: 20px;
+    text-align: center;
+
+} */
+.masterDetailedContent {
+    position: relative;
+}
+.masterDetailedContent li {
+    width: 520px;
+    height: 65px;
+    background: #fbfbfd;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.masterDetailedContent_1 ::before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: -4px;
+    width: 3px;
+    height: 30px;
+    background-color: #0061cd;
+}
+.masterDetailedContent_2 ::before {
+    content: '';
+    position: absolute;
+    top: 123px;
+    left: -4px;
+    width: 3px;
+    height: 30px;
+    background-color: #0061cd;
+}
+.masterDetailedContent_3 ::before {
+    content: '';
+    position: absolute;
+    top: 228px;
+    left: -4px;
+    width: 3px;
+    height: 30px;
+    background-color: #0061cd;
+}
+.masterDetailedContent_4 ::before {
+    content: '';
+    position: absolute;
+    top: 333px;
+    left: -4px;
+    width: 3px;
+    height: 30px;
+    background-color: #0061cd;
+}
+.masterDetailedContent_5 ::before {
+    content: '';
+    position: absolute;
+    top: 438px;
+    left: -4px;
+    width: 3px;
+    height: 30px;
+    background-color: #0061cd;
+}
+.masterDetailedContent_6 ::before {
+    content: '';
+    position: absolute;
+    top: 543px;
+    left: -4px;
+    width: 3px;
+    height: 30px;
+    background-color: #0061cd;
 }
 .masterDetailedContent img {
-    width: 30px;
-    margin-left: 50px;
+    display: inline-block;
+
 }
-.masterDetailedContent h2 {
-    margin-left: 20px;
+.masterDetailedContent p {
     display: inline-block;
 }
 .swiper {

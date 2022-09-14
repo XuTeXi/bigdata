@@ -148,9 +148,10 @@
 .floor {
     position: fixed;
     right: 20px;
-    bottom: 200px;
+    bottom: 70px;
     color: #000;
     display: inline-block;
+
 }
 .floor div {
     cursor: pointer;
