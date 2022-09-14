@@ -105,6 +105,7 @@ dataList.forEach(function (v) {
       
         <ul class="hang">
     `;
+    //内循环开始
     v.data.forEach(function(v){
         HtmlStr+=`
         <li>
@@ -115,6 +116,9 @@ dataList.forEach(function (v) {
         </li>  
         `
     })
+    // 内循环结束
+    //此外循环对应的内循环全部执行完毕，用ul和div的反标签完成闭环
     HtmlStr += '</ul></div>';
 })
+//当外循环结束，即所有的外循环都结束，将HTMLStr接收到的所有数据赋值给big标签进行渲染
 getEle('.big').innerHTML = HtmlStr;
