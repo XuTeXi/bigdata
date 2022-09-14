@@ -122,3 +122,19 @@ dataList.forEach(function (v) {
 })
 //当外循环结束，即所有的外循环都结束，将HTMLStr接收到的所有数据赋值给big标签进行渲染
 getEle('.big').innerHTML = HtmlStr;
+
+/* 楼层跳转 */
+let floorBtn = getEleAll('.floor div');
+let moudle = getEleAll('.frist h2');
+console.log(floorBtn);
+console.log(moudle);
+
+floorBtn.forEach(function(item,index){
+    item.onclick = function(){
+        console.log('点击');
+        window.scrollTo({
+            top:moudle[index].offsetTop,    //offsetTop属性是当前值距离顶部的距离
+            behavior:'smooth',
+        });
+    }
+})

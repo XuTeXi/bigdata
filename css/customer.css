@@ -144,3 +144,15 @@
 .head button a {
     color: #fff;
 }
+/* 返回楼层 */
+.floor {
+    position: fixed;
+    right: 20px;
+    bottom: 200px;
+    color: #000;
+    display: inline-block;
+}
+.floor div {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
