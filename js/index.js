@@ -58,13 +58,6 @@ aList_2.forEach(function (item) {
 })
 /* 返回顶部按钮 */
 let backTop = document.querySelector(".backTop");
-backTop.onclick = function(){
-  // document.documentElement.scrollTop = 0;
-  window.scrollTo({
-    top:100,
-    behavior: "smooth"  //平滑滚动
-  });
-}
 /* 滚动条拉下700个像素后次才显示出返回顶部按钮 */
 window.onscroll = function(){
   if(window.scrollY>700){
@@ -72,4 +65,11 @@ window.onscroll = function(){
   }else {
     backTop.style.display = "none";
   }
+}
+backTop.onclick = function(){
+  // document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top:100,
+    behavior: "smooth"  //平滑滚动
+  });
 }
