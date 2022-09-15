@@ -56,7 +56,7 @@ inputs.forEach(function (item) {
 /* 点击X图标清除输入框内内容 */
 let iconClear = getEleAll('.box .icon-clear');
 // console.log(clearIcon);
-    iconClear.forEach(function (item) {
+iconClear.forEach(function (item) {
     item.onclick = function () {
         this.previousElementSibling.value = ''
         this.style.display = 'none'
@@ -64,7 +64,7 @@ let iconClear = getEleAll('.box .icon-clear');
 })
 /* 验证码的那一个单独设置 */
 let iconClearThree = getEle('.box .icon-clear-three');
-    iconClear.forEach(function (item) {
+iconClear.forEach(function (item) {
     item.onclick = function () {
         this.previousElementSibling.value = ''
         this.style.display = 'none'

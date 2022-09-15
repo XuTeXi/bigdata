@@ -78,6 +78,7 @@ let listDataArr = [
 ];
 /* 获取数组，拿到数据 添加li、img、p、h4标签*/
 /* 四个标签的样式在api.css文件中写好 */
+
 let api_main = ""
 listDataArr.forEach(function (item) {
     api_main += ` <li class="${item.isSpecial ? 'special' : ''}" key = "${item.keyword}">  <img src="../assets/images/${item.img}"> <p>${item.name}</p>  <h4>${item.price}</h4> <a class="apply">申请数据</a> </li> `
@@ -95,17 +96,17 @@ let applyBtn = getEleAll('.main li .apply')
 let mask = getEle('#mask');
 let login = getEle('.login');
 //遍历所有的数据神奇按钮，添加监听，改变蒙层状态
-applyBtn.forEach(function(item,index){
-    item.addEventListener('click',function(){
+applyBtn.forEach(function (item, index) {
+    item.addEventListener('click', function () {
         mask.style.display = "block";
     })
 })
 //隐藏蒙层
-mask.addEventListener('click',function(){
+mask.addEventListener('click', function () {
     mask.style.display = "none"
 })
 //阻止事件冒泡
-login.addEventListener('click',function(e){
+login.addEventListener('click', function (e) {
     e.stopPropagation();
 })
 
@@ -123,17 +124,27 @@ login.addEventListener('click',function(e){
 //     an_btn.style.display = 'block';
 //     console.log("二维码隐藏，隐藏显示");
 // })
+
+/* 1.获取tab元素集合和对应的div集合 
+2.遍历tabs，绑定点击事件
+3. 所有div隐藏，所有高亮去掉
+4.显示点击对应的div
+*/
+
+
+
+
 let tabs = getEleAll(".login .lg-btn span");
 console.log(tabs);
 let divs = getEleAll(".login .an-btn,.cs-btn");
-console.log(divs );
-tabs.forEach(function(item,index){
-    item.onclick = function(){
-        tabs.forEach(function(element,i){
-            tabs[i].className = '';
-            divs[i].style.display = "none"; 
+console.log(divs);
+tabs.forEach(function (item, index) {
+    item.onclick = function () {
+        tabs.forEach(function (element, i) {
+            element.className = '';
+            divs[i].style.display = "none";
         })
-    this.className = "on";
-    divs[index].style.display = "block";
+        this.className = "on";
+        divs[index].style.display = "block";
     }
 })
